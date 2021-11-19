@@ -1,0 +1,11 @@
+{
+  "name": "Dialing In To LibreDay",
+  "category": "Miscellaneous",
+  "description": "You're about to fail the course. Thankfully the code for LibreDay is open-source and you believe you found some vulnerabilities.",
+  "score" : 100,
+  "hints": ["Check-out the code for LibreDay (https://github.com/Abjuri5t/LibreDay/)", "Research code injection vulnerabilities", "You will need to construct a payload in order to retrieve the flag"],
+  "author": "John Faria",
+  "organization": "le-team",
+  "event": "CS 558",
+  "static_flag": true
+}
