@@ -1,11 +1,11 @@
 {
-  "name": "Dialing In To LibreDay",
+  "name": "secret files, secret files, secret secret secret files",
   "category": "Miscellaneous",
-  "description": "You're about to fail the course. Thankfully the code for LibreDay is open-source and you believe you found some vulnerabilities.",
+  "description": "Catfacts is a website with a secret file somewhere on the webserver that someone uploaded a file they shouldn't have",
   "score" : 100,
-  "hints": ["Check-out the code for LibreDay (https://github.com/Abjuri5t/LibreDay/)", "Research code injection vulnerabilities", "You will need to construct a payload in order to retrieve the flag"],
-  "author": "John Faria",
-  "organization": "le-team",
+  "hints": ["Have git installed (very important)", "Learn how to hiJack Git files", "you will need to learn some git command line syntax for this challenge"],
+  "author": "Keval Ashara",
+  "organization": "Team Baguette",
   "event": "CS 558",
   "static_flag": true
 }
