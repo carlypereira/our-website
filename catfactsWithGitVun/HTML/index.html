@@ -1,17 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Let the pain flow through you</title>
-    <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css"/>
-</head>
-<body>
-<div class="container">
-    <h1>
-        <strong>
-            REALITY IS AN ILLUSION THE UNIVERSE IS A HOLOGRAM BUY GOLD BYEEEEEEE
-        </strong>
-    </h1>
-</div>
-</body>
-</html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cat Facts!</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+  </head>
+
+<section class="index-intro">
+  <h1>Some Cat Facts!</h1>
+  <p>Submit your own cat fact:</p>
+  <div class="cat-fact-form">
+    <form>
+      <input type="text" name="fact" placeholder="Type here...">
+      <button class="Click-here">Send</button>
+    </form>
+</section>
+
+<section class="index-categories">
+  <div class="index-categories-list">
+    <div>
+      <h2>Fact 1:</h2>
+      <p>Cats have the largest eyes relative to their head size of any mammal!</p>
+    </div>
+    <div>
+      <h2>Fact 2:</h2>
+      <p>Cats walk like camels and giraffes: They move both of their right feet first, then move both of their left feet. No other animals walk this way.</p>
+    </div>
+    <div>
+      <h2>Fact 3:</h2>
+      <p>Meowing is a behavior that cats developed exclusively to communicate with people!</p>
+    </div>
+    <div>
+      <h2>Fact 4:</h2>
+      <p>Cats are believed to be the only mammals who don’t taste sweetness.</p>
+    </div>
+  </div>
+
+  <div class="custom-model-main">
+    <div class="custom-model-inner">
+       <div class="close-btn">×</div>
+       <div class="custom-model-wrap">
+          <div class="pop-up-content-wrap">
+             <p>Thanks for submitting a cat fact!</p>
+          </div>
+       </div>
+    </div>
+    <div class="bg-overlay"></div>
+ </div>
+</section>
+
+  <!-- jQuery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script>
+    $(".Click-here").on('click', function() {
+      $(".custom-model-main").addClass('model-open');
+    }); 
+    $(".close-btn, .bg-overlay").click(function(){
+      $(".custom-model-main").removeClass('model-open');
+    });
+  </script>
