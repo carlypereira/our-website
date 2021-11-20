@@ -1,9 +1,9 @@
 {
   "name": "secret files, secret files, secret secret secret files",
   "category": "Miscellaneous",
-  "description": "Catfacts is a website with a secret file somewhere on the webserver that someone uploaded a file they shouldn't have",
+  "description": "Catfacts is a website with a secret file somewhere on the webserver that someone uploaded when shouldn't have",
   "score" : 100,
-  "hints": ["Have git installed (very important)", "Learn how to hiJack Git files", "you will need to learn some git command line syntax for this challenge"],
+  "hints": ["Have git installed (very important)", "Learn how to Git hiJack files", "you will need to learn some git command line syntax for this challenge"],
   "author": "Keval Ashara",
   "organization": "Team Baguette",
   "event": "CS 558",
