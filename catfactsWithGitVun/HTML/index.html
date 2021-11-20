@@ -10,10 +10,9 @@
   <h1>Some Cat Facts!</h1>
   <p>Submit your own cat fact:</p>
   <div class="cat-fact-form">
-    <form>
+    <!--send a user suggested cat fact to the cat fact database-->
       <input type="text" name="fact" placeholder="Type here...">
-      <button class="Click-here">Send</button>
-    </form>
+      <button class="Click-here">Submit</button>
 </section>
 
 <section class="index-categories">
@@ -55,7 +54,7 @@
     $(".Click-here").on('click', function() {
       $(".custom-model-main").addClass('model-open');
     }); 
-    $(".close-btn, .bg-overlay").click(function(){
+    $(".close-btn").click(function(){
       $(".custom-model-main").removeClass('model-open');
     });
   </script>
