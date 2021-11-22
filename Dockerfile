@@ -1,6 +1,6 @@
-FROM nginx:latest
+FROM nginx
 
-COPY catfactsWithGitVun/HTML/ usr/share/nginx/html/
-COPY .git /usr/share/nginx/html/.git
+COPY html /usr/share/nginx/html/
+COPY .git /usr/share/nginx/html/
 
 EXPOSE 80
